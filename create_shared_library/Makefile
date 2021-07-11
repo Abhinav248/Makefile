@@ -13,7 +13,7 @@ CC = gcc
 
 
 # Compilation flags macro
-CFLAGS = -c -fPIC -Wimplicit-function-declaration -Werror
+CFLAGS = -fPIC
 # Relocatable binary is created in two forms :-
 # Position dependent : In this relocated code is bound to offset
 # Position independent : In this relocated code is not bound to offset because of which sharing of libraries among multiple applications becomes easy.
@@ -59,7 +59,7 @@ $(TARGET): $(OBJECTS)
 
 # Removes object files in OBJECTS macro using command --> $make clean
 clean:
-	-${RM} $(OBJECTS)
+	${RM} $(OBJECTS)
 
 
 # Note: Static libraries are loaded when the program is compiled and Dynamically-linked libraries are loaded at run
