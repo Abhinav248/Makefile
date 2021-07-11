@@ -1,6 +1,12 @@
 # Sample Makefile to create a shared library from *.c files in current directory
 
 
+# Print message --> https://stackoverflow.com/questions/11775733/how-can-i-print-message-in-makefile/11776179
+#$(info INFO) # Information. This doesn't stop the execution.
+#$(warning WARNING) # Warning. This shows the text as a warning.
+#$(error ERROR) # Fatal Error. This will stop the execution.
+
+
 # To create shared library, 
 # Pull code --> $git clone https://github.com/Abhinav248/Makefile.git
 # Change dir --> $cd Makefile/create_shared_library
