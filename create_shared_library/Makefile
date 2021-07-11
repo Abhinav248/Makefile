@@ -49,7 +49,7 @@ RM = rm -rf
 all: $(TARGET)
 
 
-# Below, $@ = $(TARGET) and $^ = $(OBJECTS)
+# Below, $@ = $(TARGET) and(:) $^ = $(OBJECTS)
 $(TARGET): $(OBJECTS)
 	$(CC) -shared -o $@ $^
 
