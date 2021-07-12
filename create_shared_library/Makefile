@@ -80,3 +80,8 @@ clean:
 # These are linked dynamically simply including the address of the library (whereas static linking is a waste of space).
 # Dynamic linking links the libraries at the run-time. Thus, all the functions are in a special place in memory space,
 # and every program can access them, without having multiple copies of them.
+
+
+# Compilation Overview Information: 
+# 1. https://www.geeksforgeeks.org/compiling-a-c-program-behind-the-scenes/
+# 2. https://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work
