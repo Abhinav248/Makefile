@@ -7,6 +7,10 @@
 #$(error ERROR) # Fatal Error. This will stop the execution.
 
 
+# What's the difference between := and = in Makefile?
+# Link -> https://stackoverflow.com/questions/4879592/whats-the-difference-between-and-in-makefile
+
+
 # To create shared library, 
 # Pull code --> $git clone https://github.com/Abhinav248/Makefile.git
 # Change dir --> $cd Makefile/create_shared_library
